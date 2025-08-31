@@ -1,0 +1,13 @@
+bin/
+obj/
+
+*.user
+*.suo
+*.userprefs
+*.pidb
+*.booproj
+
+.vscode/
+.DS_Store
+
+*.log
