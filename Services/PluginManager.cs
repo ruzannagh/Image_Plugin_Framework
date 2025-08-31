@@ -12,7 +12,7 @@ namespace ImagePluginFramework.Services
         public bool TryGet(string id, out IImagePlugin? effect) =>
             _registry.TryGetValue(id, out effect);
 
-        public static string[] LoadEnabledFromJson(string json)
+        public static string[] LoadFromJson(string json)
         {
             try
             {
