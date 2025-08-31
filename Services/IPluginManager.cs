@@ -6,5 +6,6 @@ namespace ImagePluginFramework.Services
     {
         void Register(IImagePlugin plugin);
         bool TryGet(string id, out IImagePlugin? plugin);
+        bool Remove(string id); 
     }
 }

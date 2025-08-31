@@ -26,5 +26,10 @@ namespace ImagePluginFramework.Services
             catch { }
             return Array.Empty<string>();
         }
+
+        public bool Remove(string id)
+        {
+            return _registry.Remove(id);
+        }
     }
 }
